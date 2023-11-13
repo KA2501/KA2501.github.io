@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header_head{
+    width: 100%;
+    height: 40px;
+    flex-shrink: 0;
+    background-color: #0C2695;
+    overflow-x: hidden;
+    
+}
+.header_items{
+    display: flex;
+    justify-content: end;
+    gap: 24px;
+    margin-top: 9px;
+    margin-right: 200px;
+    color: #FFF;
+    leading-trim: both;
+    text-edge: cap;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 200% */
+    
+}
+.header_logo{
+    width: 100%;
+    height: 80px;
+    flex-shrink: 0;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.header2{
+    width: 100%;
+    height: 80px;
+    flex-shrink: 0;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+}
+
+.logo_ait{
+    background: url("ait\ logo.png.png"), lightgray -12.418px -2.951px / 149.591% 134.836% no-repeat;
+    width: 45.041px;
+    height: 40px;
+    flex-shrink: 0;
+}
+.logo_text{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 165px;
+    gap: 10px;
+}
+.logo_textpara{
+    color: #0C2695;
+    leading-trim: both;
+    text-edge: cap;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.text_part2{
+    display: flex;
+    justify-content: end;
+    margin-left: 365px;
+    gap: 24px;
+}
+.submit_img{
+    width: 105.691px;
+    height: 40px;
+    flex-shrink: 0;
+    background: url("submit.png"), lightgray 50% / cover no-repeat;
+    margin-top: 20px;
+}
+.textii{
+    color: #000;
+    leading-trim: both;
+    text-edge: cap;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 171.429% */
+    margin-top: 30px;
+}
+.textii a{
+    margin-left: 24px;
+}
+.header3{
+    width: 100%;
+    height: 401px;
+    flex-shrink: 0;
+    /* position: absolute; */
+}
+.campus img{
+    background: lightgray 50% / cover no-repeat, linear-gradient(263deg, rgba(0, 0, 0, 0.00) 5.89%, rgba(255, 255, 255, 0.00) 37.4%, rgba(0, 0, 0, 0.70) 110.51%);
+    height: 401px;
+    width: 100%;
+    position: absolute;
+}
+.content_campus{
+    position: relative;
+    top: 18%;
+}
+.para2{
+    flex-shrink: 0;
+    background-color: #0C2695;
+    opacity: 0.8;
+    width: 546px;
+    height: 80px;
+    flex-shrink: 0;
+    /* position: relative; */
+    margin-left: 167px;
+    border-radius: 6px;
+    
+}
+.para2 p{
+    color: #FFF;
+    leading-trim: both;
+    text-edge: cap;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 10px;
+    z-index: 2;
+}
+.para3{
+    /* position: relative; */
+    width: 445px;
+    height: 63px;
+    flex-shrink: 0;
+    background-color: #4C6BF1;
+    margin-left: 167px;
+    border-radius: 6px;
+}
+.para3 p{
+    color: #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 16px;
+}
+.buttonha{
+    /* position: relative; */
+    display: inline-flex;
+    padding: 18px 22px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 6px;
+    border: 1px solid #0C2695;
+    background: #0C2695;
+/* Neutral/Shadow 02 */
+    box-shadow: 0px 1px 4px 0px rgba(25, 33, 61, 0.08);
+    margin-left: 167px;
+    margin-top: 20px;
+}
+
+.buttonha div{
+    color: #FFF;
+    leading-trim: both;
+    text-edge: cap;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px; 
+}
+.about_us{
+    width: 100%;
+    height: 591px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.about_content{
+    width: 445px;
+    
+}
+.ab{
+    color: #0C2695;
+    leading-trim: both;
+    text-edge: cap;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 82px;
+    margin-top: 64px;
+} 
+.about_vision{
+    color: #4C6BF1;
+    leading-trim: both;
+    text-edge: cap;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 82px;
+    margin-top: 40px;
+
+}
+.about_content{
+    color: #6D6D6D;
+    leading-trim: both;
+    text-edge: cap;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    margin-left: 82px;
+    margin-top: 16px;
+}
+.about_mission{
+    color: #4C6BF1;
+    leading-trim: both;
+    text-edge: cap;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 82px;
+    margin-top: 40px;
+}
+.about_list{
+    height: 204px;
+    width: 445px;
+    margin-left: 100px;
+    margin-top: 16px;
+}
+.about_list li{
+    color: #6D6D6D;
+leading-trim: both;
+text-edge: cap;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: 'Plus Jakarta Sans', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+
+.rectangle_blue{
+    width: 610px;
+    height: 591px;
+    flex-shrink: 0;
+    background-image: linear-gradient(124deg, #0C2695 0%, #4C6BF1 100%);
+    margin-left: 25%;
+}
+ .about_image{
+    border-radius: 16px;
+    background: lightgray 50% / cover no-repeat, #FFF;
+    width: 540px;
+    height: 313px;
+    flex-shrink: 0;
+    position: absolute;
+    z-index: 2;
+    margin-top: 139px;
+    margin-left: 780px;
+} 
+
+.table{
+    margin-top: 122px;
+    width: 255px;
+    height: 670px;
+    box-shadow: 0.1px 0.1px 3px rgba(0, 0,0,0.2);
+    border-radius: 2px;
+    font-family:'Plus Jakarta Sans';
+    margin-left: 165px;
+    border-radius:8px;
+    padding-top: 12px;
+    padding-left: 15px;
+    padding-right: 17px;
+}
+.table ul p{
+    color: #0C2695;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: 'Plus Jakarta Sans';
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 150% */
+padding-top: 16px;
+}
+.table ul{
+    list-style: none;
+    display:flex;
+    flex-direction:column;
+    gap: 16px;
+}
+.table ul a{
+font-family:' Plus Jakarta Sans';
+font-size: 16px;
+color:#000000;
+
+text-align:left;
+vertical-align: middle;
+font: size 1rem;
+line-height:24px;
+border-style:hidden;
+width: 220px;
+height: 24px;
+/* padding-bottom: 8px; */
+border-top: 1px solid rgba(234,234,234,1);
+padding-top: 16px;
+padding-bottom: 16px;
+}
+.Notices{
+    font-family: "Plus Jakarta Sans";
+    
+}
+.Notices{
+    margin-top: 122px;
+    padding-left: 2rem;
+}
+.Notices h2{
+    margin: 1rem;
+    font-size: 2rem;
+    color: #0C2695;
+}
+.notices_info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 15px;
+}
+.notice_lists:nth-of-type(3){
+    grid-column: 3/3;
+}
+.table_and_notice{
+    display: flex
+}
+.notice_lists{
+    height: 113px;
+    width: 255px;
+    box-shadow: 1px 1px 3px rgba(0, 0,0,0.1);
+    border-radius: 10px;
+    margin: 1rem;
+}
+.notice_lists .date{
+    font-size: 14px;
+    color: #0C2695;
+    font-weight: 500;
+    padding:0.9rem;
+    width: 207px;
+    height: 10px;
+    text-align: left;
+}
+.notice_lists p{
+font-size: 1rem;
+font-weight: 500;
+text-align: left;
+padding: 0.9rem;
+}
+.prior{
+    text-decoration: none;
+}
